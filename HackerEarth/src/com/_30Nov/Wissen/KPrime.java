@@ -1,13 +1,15 @@
 package com._30Nov.Wissen;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class KPrime {
-
+	
 	static PrintWriter cout = new PrintWriter(System.out);
-	static Scanner cin = new Scanner(System.in);
+	static Scanner cin = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
 
 	// printing a printwriter
 	public static void println(String print) {
