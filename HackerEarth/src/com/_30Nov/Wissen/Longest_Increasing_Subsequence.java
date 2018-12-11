@@ -79,9 +79,11 @@ public class Longest_Increasing_Subsequence {
 
 		while (cin.hasNextLine()) {
 			int n = cin.nextInt();
-			if(n<1 || n>100000) throw new InputMismatchException();
+			if (n < 1 || n > 100000)
+				throw new InputMismatchException();
 			String s = cin.next();
-			if(s.length()!=n) throw new InputMismatchException();
+			if (s.length() != n)
+				throw new InputMismatchException();
 
 			int q = cin.nextInt();
 
